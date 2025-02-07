@@ -14,7 +14,7 @@ export class TvService {
 
   constructor(private http: HttpClient) {
     this.baseUrl = 'https://api.themoviedb.org/3/';
-    this.apiKey = 'dd4d819639705d332d531217b4f7c6b6';
+    this.apiKey = '9a929d6de568816820a43e8d097efbdd';
     this.language = 'en-US';
     this.region = 'US';
   }
